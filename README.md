@@ -19,6 +19,7 @@ Seller risk scoring system built on the Olist Brazilian e-commerce dataset (99K 
 ---
 ## 🟡 Customer Analytics. SQL + Python (Cohort, RFM & Statistical Analysis)
 [Repo](https://github.com/Bury20-80/customer-analytics-sql)
+
 End-to-end customer analytics on 100K customers and 200K transactions (2015-2024). SQL builds the core metrics. Python validates the data, creates every chart, and adds statistical analysis that corrected a churn measurement flaw in the original query.
 - RFM segmentation using NTILE(5) quintiles mapped to 9 business segments
 - Churn threshold corrected from 180 to 558 days after validating purchase-gap distribution in pandas
