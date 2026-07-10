@@ -17,18 +17,14 @@ Seller risk scoring system built on the Olist Brazilian e-commerce dataset (99K 
 `PostgreSQL` `Power BI` `DAX`
 
 ---
-
-## 🟡 Customer Analytics — Cohort & RFM
+## 🟡 Customer Analytics. SQL + Python (Cohort, RFM & Statistical Analysis)
 [Repo](https://github.com/Bury20-80/customer-analytics-sql)
-
-End-to-end customer analytics on 100K customers and 200K transactions (2015–2024). Covers revenue trends, RFM segmentation, churn analysis, and product performance, all built on a single reusable SQL view.
-
+End-to-end customer analytics on 100K customers and 200K transactions (2015-2024). SQL builds the core metrics. Python validates the data, creates every chart, and adds statistical analysis that corrected a churn measurement flaw in the original query.
 - RFM segmentation using NTILE(5) quintiles mapped to 9 business segments
-- Churn analysis with 6-month inactivity threshold across cohort years
-- IQR-based LTV segmentation: top 25% of customers generate 66% of revenue
+- Churn threshold corrected from 180 to 558 days after validating purchase-gap distribution in pandas
+- Gini coefficient (0.567) and Lorenz curve quantify revenue concentration: top 25% of customers generate 66% of revenue
 - New vs Returning revenue crossover identified at mid-2022
-
-`PostgreSQL` `AI visualizations`
+`PostgreSQL` `Python` `pandas` `matplotlib` `seaborn` `SQLAlchemy`
 
 ---
 
