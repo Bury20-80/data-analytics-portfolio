@@ -1,4 +1,4 @@
-# Data Analytics Portfolio — Bartłomiej Gołek
+# Data Analytics Portfolio. Bartłomiej Gołek
 
 SQL · Excel · Power Query · Power BI · DAX
 
