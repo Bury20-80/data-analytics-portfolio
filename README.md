@@ -25,6 +25,7 @@ End-to-end customer analytics on 100K customers and 200K transactions (2015-2024
 - Churn threshold corrected from 180 to 558 days after validating purchase-gap distribution in pandas
 - Gini coefficient (0.567) and Lorenz curve quantify revenue concentration: top 25% of customers generate 66% of revenue
 - New vs Returning revenue crossover identified at mid-2022
+
 `PostgreSQL` `Python` `pandas` `matplotlib` `seaborn` 
 
 ---
