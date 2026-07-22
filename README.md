@@ -4,7 +4,7 @@ bartekgolekvn@gmail.com · linkedin.com/in/bartlomiej-golek-59871840a · Poland
 
 Four independent analytics projects: e-commerce risk, customer behavior, financial
 markets, and the data job market. Built end-to-end in SQL, Power BI, Python, and
-Excel, each one ending in a decision a stakeholder could act on.
+Excel.
 
 ---
 
