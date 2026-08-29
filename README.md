@@ -1,59 +1,84 @@
-# Data Analytics Portfolio. Bartlomiej Golek
+# Data Analytics Portfolio — Bartlomiej Golek
 
-bartekgolekvn@gmail.com · linkedin.com/in/bartlomiej-golek-59871840a · Poland
+Junior Data Analyst working with SQL, Python, Power BI and Excel.
 
-Four independent analytics projects: e-commerce risk, customer behavior, financial
-markets, and the data job market. Built end-to-end in SQL, Power BI, Python, and
-Excel.
+I build end-to-end analytics projects focused on business questions, data quality, reporting and clear interpretation of results.
+
+[LinkedIn](https://www.linkedin.com/in/bart%C5%82omiej-go%C5%82ek-59871840a/) · [Email](mailto:bartekgolekvn@gmail.com) · Poland
 
 ---
 
-## 🔴 Marketplace Risk Analytics - Olist E-Commerce
-[Repo](https://github.com/Bury20-80/marketplace-risk-analytics)
+## Featured Projects
 
-Seller risk scoring on 99K orders, 3,095 sellers. Caught a timestamp bug that
-mislabeled 1,292 on-time deliveries as late, corrected value at risk from
-R$177K to R$163K. Flagged 13 HIGH-risk sellers. `auto` category carries the
-highest risk exposure at 6.83%.
+### 🔴⚪ [Polish Cities Housing Market Analysis](https://github.com/Bury20-80/Polish-Cities-Market-Analysis)
+
+Housing market analysis across 17 major Polish cities using NBP and GUS data. Built a Python data pipeline, reporting model, Power BI dashboard and Google Sheets report covering prices, affordability, price growth and housing supply.
+
+The project includes explicit grain validation, duplicate checks, source-specific period handling and reconciliation between Python, Power BI and spreadsheet outputs.
+
+`Python` `pandas` `Power BI` `DAX` `Google Sheets`
+
+---
+
+### 🟠🟠[Marketplace Risk Analytics](https://github.com/Bury20-80/marketplace-risk-analytics)
+
+Analyzed 99K orders across 3,095 sellers on an e-commerce marketplace. Built seller risk reporting around delivery performance, customer reviews, GMV concentration and category exposure.
+
+Caught a timestamp issue that incorrectly classified 1,292 deliveries as late and corrected value at risk from R$177K to R$163K.
 
 `PostgreSQL` `Power BI` `DAX`
 
 ---
 
-## 🟡 Customer Analytics - Cohort & RFM
-[Repo](https://github.com/Bury20-80/customer-analytics-sql)
+### 🔵🔵[Customer Analytics — Cohort, RFM & Churn](https://github.com/Bury20-80/customer-analytics-sql)
 
-100K customers, 200K transactions (2015-2024). Top 25% of customers generate
-66% of revenue. Found a retention inflection point in mid-2022 where returning
-customer revenue overtook new customer revenue. Corrected an earlier churn
-definition that had been overstating churn.
+Analyzed 100K customers and 200K transactions from 2015–2024 using PostgreSQL and Python.
 
-`PostgreSQL` `SQL` `Python (pandas, matplotlib)`
+Built cohort, RFM, churn, revenue concentration and product analyses. Testing the original churn assumption against observed purchase behaviour led to changing the inactivity threshold from 180 to 558 days, reducing estimated cohort churn from roughly 90% to 71–74%.
+
+`PostgreSQL` `SQL` `Python` `pandas` `matplotlib`
 
 ---
 
-## 🔵 Multi-Asset Portfolio Simulator
-[Repo](https://github.com/Bury20-80/multi-asset-portfolio-simulator)
+### 🟢🟢[Multi-Asset Portfolio Reporting Tool](https://github.com/Bury20-80/multi-asset-portfolio-simulator)
 
-Interactive Excel backtest for BTC, GLD, QQQ, SPY (2023-2026), zero VBA. Fixed
-a crypto/equity calendar mismatch with Power Query. Calculated Max Drawdown on
-a running-peak basis instead of global high-low, avoiding an overstated
-resilience figure. Portfolio beats SPY on Calmar Ratio, 1.45 vs 0.92.
+Interactive Excel portfolio analysis tool for BTC, GLD, QQQ and SPY. Users can change portfolio allocations and immediately compare return and risk metrics against market benchmarks.
+
+Power Query handles the ETL process and aligns crypto and equity trading calendars. The workbook calculates CAGR, volatility, Max Drawdown, Sharpe Ratio, Calmar Ratio and Win Rate without VBA.
 
 `Excel` `Power Query (M)` `Financial KPI Modeling`
 
 ---
 
-## ⚪ Data Job Market Analysis
-[Repo](https://github.com/Bury20-80/data-job-market-analysis)
+## Other Projects
 
-100K+ job postings. SQL, Python, and Excel together cover about 52% of
-top-skill demand. Python out-earns SQL ($129K vs $121.5K) despite near
-identical market presence.
+### [Football Betting Market Efficiency](https://github.com/Bury20-80/football-betting-market-efficiency)
 
-`Excel` `Power Pivot` `DAX` `Power Query`
+Analysis of 12,459 football matches across five major European leagues, covering bookmaker margins, probability calibration, ROI and favourite-longshot bias.
+
+`Python` `PostgreSQL` `Power BI` `Bootstrap`
+
+### [Marketing A/B Test Analysis](https://github.com/Bury20-80/ab-test-project)
+
+Statistical analysis of a 588K-user marketing experiment, including hypothesis testing, power analysis and Monte Carlo validation.
+
+`Python` `SQLite` `SciPy` `statsmodels`
+
+### [Data Job Market Analysis](https://github.com/Bury20-80/data-job-market-analysis)
+
+Analysis of 100K+ data job postings focused on technical skill demand and salary differences across data roles.
+
+`Excel` `Power Query` `Power Pivot` `DAX`
 
 ---
 
-**Stack across projects:** SQL (PostgreSQL), Power BI, DAX, Power Query (M),
-Excel, Python (pandas, matplotlib, seaborn), Git
+## Tech Stack
+
+**SQL:** PostgreSQL, SQLite, CTEs, window functions, analytical queries  
+**Python:** pandas, NumPy, SciPy, statsmodels, matplotlib, seaborn  
+**BI:** Power BI, DAX, data modeling, dashboard development  
+**Excel:** Power Query, Power Pivot, Pivot Tables, XLOOKUP  
+**Statistics:** hypothesis testing, confidence intervals, power analysis, Monte Carlo simulation  
+**Tools:** Git, GitHub, Jupyter, Visual Studio Code
+
+---
