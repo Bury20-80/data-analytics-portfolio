@@ -20,7 +20,7 @@ The project includes explicit grain validation, duplicate checks, source-specifi
 
 ---
 
-### 🟠🟠[Marketplace Risk Analytics](https://github.com/Bury20-80/marketplace-risk-analytics)
+### 🟠🟠 [Marketplace Risk Analytics](https://github.com/Bury20-80/marketplace-risk-analytics)
 
 Analyzed 99K orders across 3,095 sellers on an e-commerce marketplace. Built seller risk reporting around delivery performance, customer reviews, GMV concentration and category exposure.
 
@@ -30,7 +30,7 @@ Caught a timestamp issue that incorrectly classified 1,292 deliveries as late an
 
 ---
 
-### 🔵🔵[Customer Analytics — Cohort, RFM & Churn](https://github.com/Bury20-80/customer-analytics-sql)
+### 🔵🔵 [Customer Analytics — Cohort, RFM & Churn](https://github.com/Bury20-80/customer-analytics-sql)
 
 Analyzed 100K customers and 200K transactions from 2015–2024 using PostgreSQL and Python.
 
@@ -40,7 +40,7 @@ Built cohort, RFM, churn, revenue concentration and product analyses. Testing th
 
 ---
 
-### 🟢🟢[Multi-Asset Portfolio Reporting Tool](https://github.com/Bury20-80/multi-asset-portfolio-simulator)
+### 🟢🟢 [Multi-Asset Portfolio Reporting Tool](https://github.com/Bury20-80/multi-asset-portfolio-simulator)
 
 Interactive Excel portfolio analysis tool for BTC, GLD, QQQ and SPY. Users can change portfolio allocations and immediately compare return and risk metrics against market benchmarks.
 
@@ -63,12 +63,6 @@ Analysis of 12,459 football matches across five major European leagues, covering
 Statistical analysis of a 588K-user marketing experiment, including hypothesis testing, power analysis and Monte Carlo validation.
 
 `Python` `SQLite` `SciPy` `statsmodels`
-
-### [Data Job Market Analysis](https://github.com/Bury20-80/data-job-market-analysis)
-
-Analysis of 100K+ data job postings focused on technical skill demand and salary differences across data roles.
-
-`Excel` `Power Query` `Power Pivot` `DAX`
 
 ---
 
