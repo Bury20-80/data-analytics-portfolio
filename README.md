@@ -24,7 +24,7 @@ The project includes explicit grain validation, duplicate checks, source-specifi
 
 Analyzed 99K orders across 3,095 sellers on an e-commerce marketplace. Built seller risk reporting around delivery performance, customer reviews, GMV concentration and category exposure.
 
-Caught a timestamp issue that incorrectly classified 1,292 deliveries as late and corrected value at risk from R$177K to R$163K.
+The final model identifies 14 HIGH-risk sellers associated with R$169.29K of delivered GMV exposure. Seller-level delivery and review quality metrics use only one-seller orders where these outcomes can be attributed defensibly.
 
 `PostgreSQL` `Power BI` `DAX`
 
@@ -32,9 +32,9 @@ Caught a timestamp issue that incorrectly classified 1,292 deliveries as late an
 
 ### 🔵🔵 [Customer Analytics — Cohort, RFM & Churn](https://github.com/Bury20-80/customer-analytics-sql)
 
-Analyzed 100K customers and 200K transactions from 2015–2024 using PostgreSQL and Python.
+Analyzed 49,487 purchasing customers, 83,130 orders and 199,873 sales lines from 2015–2024 using PostgreSQL and Python.
 
-Built cohort, RFM, churn, revenue concentration and product analyses. Testing the original churn assumption against observed purchase behaviour led to changing the inactivity threshold from 180 to 558 days, reducing estimated cohort churn from roughly 90% to 71–74%.
+Built cohort, RFM, customer inactivity, revenue concentration and product analyses. Customer inactivity uses the median observed repeat-purchase interval of 557 days as a pragmatic behavioral threshold rather than an estimate of permanent churn.
 
 `PostgreSQL` `SQL` `Python` `pandas` `matplotlib`
 
@@ -72,7 +72,4 @@ Statistical analysis of a 588K-user marketing experiment, including hypothesis t
 **Python:** pandas, NumPy, SciPy, statsmodels, matplotlib, seaborn  
 **BI:** Power BI, DAX, data modeling, dashboard development  
 **Excel:** Power Query, Power Pivot, Pivot Tables, XLOOKUP  
-**Statistics:** hypothesis testing, confidence intervals, power analysis, Monte Carlo simulation  
-**Tools:** Git, GitHub, Jupyter, Visual Studio Code
-
----
+**Statistics:** hypothesis testing, confidence intervals, A/B testing, power analysis, MDE, bootstrap, Monte Carlo simulation, Spearman correlation
